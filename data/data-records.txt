@@ -35,7 +35,7 @@ https://git.heroku.com/fathomless-ravine-63520.git
 	"emailId": "jsrinadhraju@gmail.com",
 	"address": {"addr": "MSM Venkat Sai Residency, Apt 405, Maharishi Marg, Shilpa Park, Kondapur", "city": "Hyderabad", "state": "Telangana", "pincode": "500084"},
 	"leftUs": "",
-	"spouse": "5b1d1c56a085b11a4442a3f7"
+	"spouse": "5b1d1c56a085b11a4442a3f7",
 	"sons": ["5b1d1c03a085b11a4442a3f4", "5b1d1c1fa085b11a4442a3f5"],
 	"mother": "5b1d23f3f4efe9210b6e64c9",
 	"father": "5b1d2388f4efe9210b6e64c8"
@@ -158,8 +158,8 @@ https://git.heroku.com/fathomless-ravine-63520.git
 	"leftUs": "1990",
 	"spouse": "5b1d288df4efe9210b6e64ce",
 	"spouse2": "5b1d28c8f4efe9210b6e64cf",
-	"sons": [""],
-	"daughters": [""]
+	"sons": ["5b1d2873f4efe9210b6e64cd", "5b1d2c67f4efe9210b6e64d4", "5b1d2d30f4efe9210b6e64d7", "5b1d2dc1f4efe9210b6e64d9", "5b1d2f26f4efe9210b6e64dd", "5b1d2645f4efe9210b6e64ca", "5b1d2fe9f4efe9210b6e64e0", "5b1d309bf4efe9210b6e64e3"],
+	"daughters": ["5b1d3190f4efe9210b6e64e7", "5b1d3256f4efe9210b6e64e9", "5b1d331df4efe9210b6e64ea"]
 }
 
 {	"_id": "5b1d288df4efe9210b6e64ce",
@@ -170,8 +170,7 @@ https://git.heroku.com/fathomless-ravine-63520.git
 	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
 	"leftUs": "1990",
 	"spouse": "5b1d2873f4efe9210b6e64cd",
-	"sons": [""],
-	"daughters": [""]
+	"sons": ["5b1d2ad2f4efe9210b6e64d0"]
 }
 
 {	"_id": "5b1d28c8f4efe9210b6e64cf",
@@ -182,8 +181,8 @@ https://git.heroku.com/fathomless-ravine-63520.git
 	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
 	"leftUs": "1990",
 	"spouse": "5b1d2873f4efe9210b6e64cd",
-	"sons": [""],
-	"daughters": [""]
+	"sons": ["5b1d2c67f4efe9210b6e64d4", "5b1d2d30f4efe9210b6e64d7", "5b1d2dc1f4efe9210b6e64d9", "5b1d2f26f4efe9210b6e64dd", "5b1d2645f4efe9210b6e64ca", "5b1d2fe9f4efe9210b6e64e0", "5b1d309bf4efe9210b6e64e3"],
+	"daughters": ["5b1d3190f4efe9210b6e64e7", "5b1d3256f4efe9210b6e64e9", "5b1d331df4efe9210b6e64ea"]
 }
 
 // SON - 1
