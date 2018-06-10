@@ -1,0 +1,473 @@
+
+{	"_id": "5b1d1c03a085b11a4442a3f4",
+	"name": {"lastname": "Jampana", "firstname": "Vivek Varma"},
+	"nickName": "Vivi",
+	"gender": "Male",
+	"dateOfBirth": "22-12-2010",
+	"father": "5b1d1c34a085b11a4442a3f6",
+	"mother": "5b1d1c56a085b11a4442a3f7",
+	"highestQualification": "1st Class"
+}
+
+
+{	"_id": "5b1d1c1fa085b11a4442a3f5",
+	"name": {"lastname": "Jampana", "firstname": "Vikram Varma"},
+	"nickName": "Vicky",
+	"gender": "Male",
+	"father": "5b1d1c34a085b11a4442a3f6",
+	"mother": "5b1d1c56a085b11a4442a3f7",
+	"dateOfBirth": "20-06-2008",
+	"highestQualification": "4th Class"
+}
+
+{	"_id": "5b1d1c34a085b11a4442a3f6",
+	"name": {"lastname": "Jampana", "firstname": "Veera Venkata Srinadh Raju"},
+	"nickName": "Srinadh",
+	"gender": "Male",
+	"bloodGroup": "A+ve",
+	"dateOfBirth": "15-05-1980",
+	"occupation": "Software Engineer",
+	"highestQualification": "Masters",
+	"mobileNo": "7331179033",
+	"emailId": "jsrinadhraju@gmail.com",
+	"address": {"addr": "MSM Venkat Sai Residency, Apt 405, Maharishi Marg, Shilpa Park, Kondapur", "city": "Hyderabad", "state": "Telangana", "pincode": "500084"},
+	"leftUs": "",
+	"spouse": "5b1d1c56a085b11a4442a3f7"
+	"sons": ["5b1d1c03a085b11a4442a3f4", "5b1d1c1fa085b11a4442a3f5"],
+	"mother": "5b1d23f3f4efe9210b6e64c9",
+	"father": "5b1d2388f4efe9210b6e64c8"
+}
+
+{
+	"_id": "5b1d1c56a085b11a4442a3f7",
+	"name": {"lastname": "Jampana", "firstname": "Vijaya Deepika"},
+	"nickName": "Deepika",
+	"gender": "Female",
+	"bloodGroup": "B+ve",
+	"dateOfBirth": "05-05-1985",
+	"occupation": "Home Maker",
+	"highestQualification": "Degree",
+	"mobileNo": "7794964567",
+	"emailId": "jvijayadeepika@gmail.com",
+	"address": {"addr": "MSM Venkat Sai Residency, Apt 405, Maharishi Marg, Shilpa Park, Kondapur", "city": "Hyderabad", "state": "Telangana", "pincode": "500084"},
+	"leftUs": "",
+	"spouse": "5b1d1c34a085b11a4442a3f6",
+	"sons": ["5b1d1c03a085b11a4442a3f4", "5b1d1c1fa085b11a4442a3f5"]
+}
+
+{	"_id": "5b1d1f07f4efe9210b6e64c1",
+	"name": {"lastname": "Vegesna", "firstname": "Sri Ranga Mahesh Varma"},
+	"nickName": "Mahi",
+	"gender": "Male",
+	"dateOfBirth": "05-05-2010",
+	"father": "5b1d20ccf4efe9210b6e64c5",
+	"mother": "5b1d2174f4efe9210b6e64c7",
+	"highestQualification": "2nd Class"
+}
+
+
+{	"_id": "5b1d1f73f4efe9210b6e64c2",
+	"name": {"lastname": "Vegesna", "firstname": "Navya Sri Mahalakshmi"},
+	"nickName": "Navvu",
+	"gender": "Female",
+	"dateOfBirth": "06-04-2007",
+	"father": "5b1d20ccf4efe9210b6e64c5",
+	"mother": "5b1d2174f4efe9210b6e64c7",
+	"highestQualification": "5th Class"
+}
+
+{	"_id": "5b1d20ccf4efe9210b6e64c5",
+	"name": {"lastname": "Vegesna", "firstname": "Naga Narasimha Raju"},
+	"nickName": "Babji",
+	"gender": "Male",
+	"dateOfBirth": "24-10-1976",
+	"occupation": "Software Engineer",
+	"highestQualification": "Diploma",
+	"mobileNo": "9849234502",
+	"emailId": "kusuma50@gmail.com",
+	"address": {"addr": "Plot No 1239, Rd No 55, KPHB Colony, Gokul Plots, Opp Prajay Mega polis apts", "city": "Hyderabad", "state": "Telangana", "pincode": "500085"},
+	"leftUs": "",
+	"spouse": "5b1d2174f4efe9210b6e64c7",
+	"sons": ["5b1d1f07f4efe9210b6e64c1"],
+	"daughters": ["5b1d1f73f4efe9210b6e64c2"]
+}
+
+{	"_id": "5b1d2174f4efe9210b6e64c7",
+	"name": {"lastname": "Vegesna", "firstname": "Sandhya Rani"},
+	"nickName": "Sandhya",
+	"gender": "Female",
+	"bloodGroup": "A+ve",
+	"dateOfBirth": "22-12-1983",
+	"occupation": "Home Maker",
+	"highestQualification": "MBA",
+	"mobileNo": "9030060939",
+	"emailId": "vsandhyarani@gmail.com",
+	"address": {"addr": "Plot No 1239, Rd No 55, KPHB Colony, Gokul Plots, Opp Prajay Mega polis apts", "city": "Hyderabad", "state": "Telangana", "pincode": "500085"},
+	"leftUs": "",
+	"spouse": "5b1d20ccf4efe9210b6e64c5",
+	"sons": ["5b1d1f07f4efe9210b6e64c1"],
+	"daughters": ["5b1d1f73f4efe9210b6e64c2"],
+	"mother": "5b1d23f3f4efe9210b6e64c9",
+	"father": "5b1d2388f4efe9210b6e64c8"
+}
+
+{	"_id": "5b1d2388f4efe9210b6e64c8",
+	"name": {"lastname": "Jampana", "firstname": "Venkata Satyanarayana Raju"},
+	"nickName": "Chinna Raju",
+	"gender": "Male",
+	"dateOfBirth": "30-10-1957",
+	"occupation": "Finance",
+	"highestQualification": "6th Class",
+	"mobileNo": "9948598739",
+	"address": {"addr": "68-10A-17/1A, Rajeshwari Nagar, Beside Surya carwash Lane", "city": "Kakinada", "state": "Andhra Pradesh", "pincode": "533003"},
+	"leftUs": "",
+	"spouse": "5b1d23f3f4efe9210b6e64c9",
+	"mother": "5b1d2645f4efe9210b6e64ca",
+	"father": "5b1d2671f4efe9210b6e64cb",
+	"sons": ["5b1d1c34a085b11a4442a3f6"],
+	"daughters": ["5b1d2174f4efe9210b6e64c7"]
+}
+
+{	"_id": "5b1d23f3f4efe9210b6e64c9",
+	"name": {"lastname": "Jampana", "firstname": "Padmavathi"},
+	"nickName": "Padma",
+	"gender": "Female",
+	"bloodGroup": "A+ve",
+	"dateOfBirth": "31-07-1963",
+	"occupation": "Home Maker",
+	"highestQualification": "7th class",
+	"mobileNo": "7730099094",
+	"address": {"addr": "68-10A-17/1A, Rajeshwari Nagar, Beside Surya carwash Lane", "city": "Kakinada", "state": "Andhra Pradesh", "pincode": "533003"},
+	"leftUs": "",
+	"spouse": "5b1d2388f4efe9210b6e64c8",
+	"sons": ["5b1d1c34a085b11a4442a3f6"],
+	"daughters": ["5b1d2174f4efe9210b6e64c7"]
+}
+
+
+// HEAD OF THE TREE
+{	"_id": "5b1d2873f4efe9210b6e64cd",
+	"name": {"lastname": "Jampana", "firstname": "Rama Bhadra Raju"},
+	"nickName": "Bhadra Raju",
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d288df4efe9210b6e64ce",
+	"spouse2": "5b1d28c8f4efe9210b6e64cf",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d288df4efe9210b6e64ce",
+	"name": {"lastname": "Jampana", "firstname": "Surya Narayanamma"},
+	"nickName": "Sureedu",
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d2873f4efe9210b6e64cd",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d28c8f4efe9210b6e64cf",
+	"name": {"lastname": "Jampana", "firstname": "Surya Narayanamma"},
+	"nickName": "Sureedu",
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d2873f4efe9210b6e64cd",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// SON - 1
+{	"_id": "5b1d2ad2f4efe9210b6e64d0",
+	"name": {"lastname": "Jampana", "firstname": "Venkata Subba Raju"},
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"father": "5b1d2873f4efe9210b6e64cd",
+	"mother": "5b1d288df4efe9210b6e64ce",
+	"spouse": "5b1d2ad2f4efe9210b6e64d0",
+	"spouse2": "5b1d2b39f4efe9210b6e64d3",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d2b16f4efe9210b6e64d1",
+	"name": {"lastname": "Jampana", "firstname": "Appala Narasayamma"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d2ad2f4efe9210b6e64d0",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d2b39f4efe9210b6e64d3",
+	"name": {"lastname": "Jampana", "firstname": "Surya Narayanamma"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d2ad2f4efe9210b6e64d0",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// SON - 1
+{	"_id": "5b1d2c67f4efe9210b6e64d4",
+	"name": {"lastname": "Jampana", "firstname": "Venkata Rama Raju"},
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"father": "5b1d2873f4efe9210b6e64cd",
+	"mother": "5b1d28c8f4efe9210b6e64cf",
+	"spouse": "5b1d2c81f4efe9210b6e64d5",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d2c81f4efe9210b6e64d5",
+	"name": {"lastname": "Jampana", "firstname": "Narasayamma"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d2c67f4efe9210b6e64d4",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// SON - 2
+{	"_id": "5b1d2d30f4efe9210b6e64d7",
+	"name": {"lastname": "Jampana", "firstname": "Subba Raju"},
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"father": "5b1d2873f4efe9210b6e64cd",
+	"mother": "5b1d28c8f4efe9210b6e64cf",
+	"spouse": "5b1d2d4cf4efe9210b6e64d8",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d2d4cf4efe9210b6e64d8",
+	"name": {"lastname": "Jampana", "firstname": "Appala Narasayamma"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d2d30f4efe9210b6e64d7",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// SON - 3
+{	"_id": "5b1d2dc1f4efe9210b6e64d9",
+	"name": {"lastname": "Jampana", "firstname": "Narayana Raju"},
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"father": "5b1d2873f4efe9210b6e64cd",
+	"mother": "5b1d28c8f4efe9210b6e64cf",
+	"spouse": "5b1d2df7f4efe9210b6e64da",
+	"spouse2": "5b1d2e0bf4efe9210b6e64db",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d2df7f4efe9210b6e64da",
+	"name": {"lastname": "Jampana", "firstname": "Ramanayamma"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d2dc1f4efe9210b6e64d9",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d2e0bf4efe9210b6e64db",
+	"name": {"lastname": "Jampana", "firstname": "Sitadevi"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d2dc1f4efe9210b6e64d9",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// SON - 4
+{	"_id": "5b1d2f26f4efe9210b6e64dd",
+	"name": {"lastname": "Jampana", "firstname": "Laxmi Pathi Raju"},
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"father": "5b1d2873f4efe9210b6e64cd",
+	"mother": "5b1d28c8f4efe9210b6e64cf",
+	"spouse": "5b1d2f40f4efe9210b6e64de",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d2f40f4efe9210b6e64de",
+	"name": {"lastname": "Jampana", "firstname": "Venkata Narasayamma"},
+	"nickName": "Chilaka",
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d2f26f4efe9210b6e64dd",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// SON - 5
+{	"_id": "5b1d2645f4efe9210b6e64ca",
+	"name": {"lastname": "Jampana", "firstname": "Bapi Raju"},
+	"nickName": "Bapi Raju",
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "Jan-2011",
+	"spouse": "5b1d2671f4efe9210b6e64cb",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d2671f4efe9210b6e64cb",
+	"name": {"lastname": "Jampana", "firstname": "Surya Narayanamma"},
+	"nickName": "Sureedu",
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "Jan-2018",
+	"spouse": "5b1d2645f4efe9210b6e64ca",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// SON -6
+{	"_id": "5b1d2fe9f4efe9210b6e64e0",
+	"name": {"lastname": "Jampana", "firstname": "Satya Narayana Raju"},
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"father": "5b1d2873f4efe9210b6e64cd",
+	"mother": "5b1d28c8f4efe9210b6e64cf",
+	"spouse": "5b1d300df4efe9210b6e64e1",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d300df4efe9210b6e64e1",
+	"name": {"lastname": "Jampana", "firstname": "Subhadrayamma"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d2fe9f4efe9210b6e64e0",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// Son - 7
+{	"_id": "5b1d309bf4efe9210b6e64e3",
+	"name": {"lastname": "Jampana", "firstname": "Ram Bhadra Raju"},
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"father": "5b1d2873f4efe9210b6e64cd",
+	"mother": "5b1d28c8f4efe9210b6e64cf",
+	"spouse": "5b1d30b5f4efe9210b6e64e4",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d30b5f4efe9210b6e64e4",
+	"name": {"lastname": "Jampana", "firstname": "Annapurnamma"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d309bf4efe9210b6e64e3",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// DAUGHTER - 1
+{	"_id": "5b1d3176f4efe9210b6e64e6",
+	"name": {"lastname": "Penmetsa", "firstname": "Jagannadha Raju"},
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d3190f4efe9210b6e64e7",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d3190f4efe9210b6e64e7",
+	"name": {"lastname": "Penmetsa", "firstname": "Appalanarasayamma"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"father": "5b1d2873f4efe9210b6e64cd",
+	"mother": "5b1d28c8f4efe9210b6e64cf",
+	"spouse": "5b1d3176f4efe9210b6e64e6",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// DAUGHTER - 2
+{	"_id": "5b1d3238f4efe9210b6e64e8",
+	"name": {"lastname": "Datla", "firstname": "Surap Raju"},
+	"gender": "Male",
+	"occupation": "Farmer",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"spouse": "5b1d3256f4efe9210b6e64e9",
+	"sons": [""],
+	"daughters": [""]
+}
+
+{	"_id": "5b1d3256f4efe9210b6e64e9",
+	"name": {"lastname": "Datla", "firstname": "Buchi Bhadrayamma"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"father": "5b1d2873f4efe9210b6e64cd",
+	"mother": "5b1d28c8f4efe9210b6e64cf",
+	"spouse": "5b1d3238f4efe9210b6e64e8",
+	"sons": [""],
+	"daughters": [""]
+}
+
+// DAUGHTER - 3
+{	 "_id": "5b1d331df4efe9210b6e64ea",
+	"name": {"lastname": "Datla", "firstname": "Satya Narayanamma"},
+	"gender": "Female",
+	"occupation": "Home Maker",
+	"address": {"addr": "Cheyyeru", "city": "Cheyyeru Agraharam", "state": "Andhra Pradesh"},
+	"leftUs": "1990",
+	"father": "5b1d2873f4efe9210b6e64cd",
+	"mother": "5b1d28c8f4efe9210b6e64cf",
+	"spouse": "5b1d3238f4efe9210b6e64e8",
+	"sons": [""],
+	"daughters": [""]
+}
