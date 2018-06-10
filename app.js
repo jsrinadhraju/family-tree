@@ -3,7 +3,8 @@ var bodyParser = require("body-parser");
 
 const Person = require('./db/model');
 const {mongoose} = require('./db/mongoose');
-
+const {ObjectId} = require('mongodb');
+const port = process.env.PORT || 3001;
 var app = express();
 app.use(bodyParser.json());
 
@@ -47,4 +48,20 @@ app.get('/getall', (req, res) => {
     });
 });
 
-app.listen(3001, () => console.log('Server started on port 3001'));
+app.get('/get/:id', (req, res) => {
+
+  if (!ObjectId.isValid(req.params.id)) {
+    console.log("Object Id is not valid");
+    res.status(400).send("Object Id is not valid");
+    return;
+  }
+  Person.findById(req.params.id).then((doc) => {
+    if (!doc) {
+      res.status(400).send("Id not found");
+      return console.log("Id not found");
+    }
+    res.status(200).send(JSON.stringify(doc, undefined, 2));
+    console.log('Data', JSON.stringify(doc, undefined, 2));})
+    .catch((err) => console.log(err));
+});
+app.listen(port, () => console.log(`Server started on port ${port}`));

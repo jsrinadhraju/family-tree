@@ -15,10 +15,10 @@ Person.find({name: {lastname: 'Datla'}})
   );
 //Person.findOne({_id: id}).then((doc) => {console.log('Data', JSON.stringify(doc, undefined, 2));});
 
-// Person.findById(id).then((doc) => {
-//   if (!doc) {
-//     console.log("Id not found");
-//     return;
-//   }
-//   console.log('Data', JSON.stringify(doc, undefined, 2));})
-//   .catch((err) => console.log(err));
+Person.findById(id).then((doc) => {
+  if (!doc) {
+    console.log("Id not found");
+    return;
+  }
+  console.log('Data', JSON.stringify(doc, undefined, 2));})
+  .catch((err) => {console.log(err); res.send('Cannot retrieve Data')});
