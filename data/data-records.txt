@@ -1,4 +1,6 @@
 MONGODB_URI mongodb://heroku_11wbzw1p:1468n7gjqr3lgb5aa104o568go@ds249530.mlab.com:49530/heroku_11wbzw1p
+https://fathomless-ravine-63520.herokuapp.com/
+https://git.heroku.com/fathomless-ravine-63520.git
 
 {	"_id": "5b1d1c03a085b11a4442a3f4",
 	"name": {"lastname": "Jampana", "firstname": "Vivek Varma"},

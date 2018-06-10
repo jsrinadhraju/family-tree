@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.post('/addperson', (req, res) => {
   var personObj = new Person({
-    //_id: req.body._id,
+    _id: req.body._id,
     name: req.body.name,
     gender: req.body.gender,
     leftUs: req.body.leftUs,
