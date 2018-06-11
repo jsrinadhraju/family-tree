@@ -1,5 +1,6 @@
-var express = require("express");
-var bodyParser = require("body-parser");
+const express = require("express");
+const bodyParser = require("body-parser");
+const _ = require('lodash');
 
 const Person = require('./db/model');
 const {mongoose} = require('./db/mongoose');
@@ -64,4 +65,46 @@ app.get('/get/:id', (req, res) => {
     console.log('Data', JSON.stringify(doc, undefined, 2));})
     .catch((err) => console.log(err));
 });
+
+app.delete('/delete/:id', (req, res) => {
+  console.log(req.params.id);
+  Person.findByIdAndRemove(req.params.id).then((todo) => {
+    res.end();
+    return console.log("Object removed success fully", todo);
+  }, (e) => {
+    res.end();
+    return console.log("Object not found");
+  });
+});
+
+app.patch('/update/:id', (req, res) => {
+  var id = req.params.id;
+  var body = _.pick(req.body, ['text', 'gender']);
+  console.log("Body --> ", body);
+  if (!ObjectId.isValid(req.params.id)) {
+    console.log("Object Id is not valid");
+    return res.status(400).send("Object Id is not valid");
+  }
+
+  if (body.gender === 'male') {
+    console.log('No update required');
+    res.status(400).send("No update required");
+  } else {
+    body.gender = "female";
+    body.lastUpdated = new Date().getTime();
+    Person.findByIdAndUpdate(id, {$set: body}, {new: true})
+      .then((todo) => {
+        if (!todo) {
+          return res.status(404).send();
+        }
+        res.status(200).send({todo});
+      }, (e) => { res.status(404).send();
+    }).catch((e) => {
+      console.log("error-->", e);
+    })
+  }
+});
+
 app.listen(port, () => console.log(`Server started on port ${port}`));
+
+module.exports = {app};
