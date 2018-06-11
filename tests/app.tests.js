@@ -7,7 +7,7 @@ const app = require('./../app').app;
 describe('Get Person by Id', () => {
   it('should get the correct person object', (done) => {
     request(app)
-      .get('/get/5b1e1fed2ed76fc50a461130')
+      .get('/get/5b1d1c1fa085b11a4442a3f5')
       .expect(200)
       .end(done);
   })

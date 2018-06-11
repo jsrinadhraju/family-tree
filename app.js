@@ -1,3 +1,13 @@
+var env = process.env.NODE_ENV || 'development';
+console.log('env*********', env);
+if (env === 'development') {
+  process.env.PORT = 3001;
+  process.env.MONGODB_URI = 'mongodb://localhost:27017/family-tree';
+} else if (env === 'test') {
+  process.env.PORT = 3001;
+  process.env.MONGODB_URI = 'mongodb://localhost:27017/family-treeTest';
+}
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const _ = require('lodash');
@@ -5,7 +15,7 @@ const _ = require('lodash');
 const Person = require('./db/model');
 const {mongoose} = require('./db/mongoose');
 const {ObjectId} = require('mongodb');
-const port = process.env.PORT || 3001;
+const port = process.env.PORT;
 var app = express();
 app.use(bodyParser.json());
 
