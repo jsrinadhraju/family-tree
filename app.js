@@ -13,6 +13,7 @@ const bodyParser = require("body-parser");
 const _ = require('lodash');
 
 const Person = require('./db/model');
+const {User} = require('./db/users');
 const {mongoose} = require('./db/mongoose');
 const {ObjectId} = require('mongodb');
 const port = process.env.PORT;
@@ -115,6 +116,83 @@ app.patch('/update/:id', (req, res) => {
   }
 });
 
+
+app.post('/adduser', (req, res) => {
+  var userObj = new User({
+    email: req.body.email,
+    password: req.body.password,
+    tokens: req.body.tokens
+  });
+
+  userObj.save().then(() => {
+    return userObj.generateAuthToken();
+  }).then((token) => {
+    console.log('auth token generated');
+    res.header('x-auth', token).send(JSON.stringify(userObj, undefined, 2));
+  }).catch((e) => {
+    console.log('Error generated', e);
+    res.status(400).send(e);
+  })
+});
+
+app.get('/getallusers', (req, res) => {
+  User.find().then((doc) => {
+    console.log(JSON.stringify(doc, undefined, 2));
+    res.send(doc);
+  });
+});
+
+app.get('/getuser/:email', (req, res) => {
+  var email = req.params.email;
+  User.findOne({email}).then(
+    (doc) => {
+      if (!doc) {
+        return res.status(404).send("Requested Email not found");
+      }
+      res.status(200).send(doc);
+    },
+    (e) => {
+      res.status(400).send(e);
+    }
+  );
+});
+
+app.delete('/deleteuser/:email', (req, res) => {
+  var email = req.params.email;
+  User.findOneAndRemove({email}).then(
+    (doc) => {
+      if (!doc) {
+        return res.status(404).send("Requested Email not found");
+      }
+      return res.status(200).send(doc).send("Email Id deleted successfully");
+    },
+    (e) => {
+      return res.status(400).send(e);
+    }
+  );
+});
+
+app.patch('/updateuser/:email', (req, res) => {
+  var email = req.params.email;
+  var body = _.pick(req.body, ['text', 'password', 'tokens']);
+  console.log("Body --> ", body);
+
+  if (body.password.length <= 6) {
+    console.log('Passord should be more than six characters');
+    res.status(404).send("Passord should be more than six characters");
+  } else {
+    User.findOneAndUpdate(email, {$set: body}, {new: true})
+      .then((todo) => {
+        if (!todo) {
+          return res.status(404).send();
+        }
+        res.status(200).send({todo});
+      }, (e) => { res.status(404).send();
+    }).catch((e) => {
+      console.log("error-->", e);
+    })
+  }
+});
 app.listen(port, () => console.log(`Server started on port ${port}`));
 
 module.exports = {app};
